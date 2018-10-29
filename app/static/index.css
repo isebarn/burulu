@@ -1,0 +1,82 @@
+/* http://paletton.com/#uid=32d0T0khmrg0HVW7OFcpmj+HRau */
+
+/* Split the screen in half */
+.split {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  width: 30%;
+  background-color: #A69EC9;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  width: 70%;
+  background-color: #B5CF5F;
+}
+
+.user_list {
+  background-color: #EFEEF3;
+  padding-top: 5px;
+  padding-right: 3px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+}
+
+.user_list:hover { 
+    background-color: #2F226E;
+}
+
+.message {
+  font-family: "Droid Sans";
+  right: 0;
+  width: 70%;
+}
+
+h2 { font-family: "Droid Sans"; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 18px; }
+
+p { 
+  font-family: "Droid Sans"; 
+  font-size: 14px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 400; 
+  line-height: 20px; 
+} 
+
+
+/* Chat containers */
+.container {
+    border: 2px solid #7C9820;
+    background-color: #FCFDF8;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Darker chat container */
+.darker {
+    border-color: #7C9820;
+    background-color: #E9F7BB;
+}
+
+.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+
+.chatbox {
+  left: 0;
+  max-height: 80%;
+  overflow-y: scroll;
+}
